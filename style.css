@@ -1,0 +1,75 @@
+/* styles.css */
+html{
+  font-size: 19px;
+  background-image: url(https://i.pinimg.com/originals/34/15/3a/34153ab341fca1a44e6247b9b190e790.gif);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head {
+  background-color: gold;
+   width: 140;
+   height: 140px;
+   background: gold;
+   border-radius: 70px;
+}
+.pics {
+   width: 600px;
+   height: 340px;
+   border-radius: none;
+   .pics align: center;
+}
+
+
+header {
+    background-color: #190261;
+    color: gold;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+}
+nav ul li a:hover {
+  color: darkgoldenrod;
+}
+
+section {
+    padding: 20px;
+      max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #190261;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    Color: gold;
+}
+
+footer {
+    background-color: #190261;
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.link {
+  color: gold;
+}
+.link:hover {
+  color: darkgoldenrod;
+}
